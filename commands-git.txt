@@ -1,1 +1,33 @@
 
+Voici les commandes Git qui permettent de cloner un repository et de réaliser les trois commandes de push :
+
+Cloner un repository :
+
+git clone <url_du_repository> : Cette commande permet de cloner un repository existant dans un nouveau dossier.
+Les 3 commandes de push :
+
+a. Ajouter les fichiers modifiés au staging area en utilisant la commande git add :
+
+csharp
+Copy code
+git add <nom_du_fichier>
+Cette commande permet d'ajouter les fichiers modifiés ou nouvellement créés à la staging area.
+
+b. Effectuer un commit en utilisant la commande git commit :
+
+sql
+Copy code
+git commit -m "Message de commit"
+Cette commande permet d'enregistrer les modifications effectuées dans le repository local avec un message de commit spécifié.
+
+c. Pousser les modifications vers le repository distant en utilisant la commande git push :
+
+php
+Copy code
+git push <nom_du_remote> <nom_de_la_branche>
+Cette commande permet de pousser les modifications enregistrées localement vers le repository distant spécifié.
+
+Remarque : Les noms des remotes et des branches peuvent varier selon la configuration de votre repository.
+
+
+
